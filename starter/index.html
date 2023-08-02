@@ -11,9 +11,22 @@
     />
     <link rel="stylesheet" href="defaults.css" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="mobile.css">
   </head>
   <body>
     <header>
+      <nav class="nav-mobile">
+        <div class="navmobile-brand">
+          <div class="mobile-logo">
+            <i class="fa-regular fa-hand-lizard"></i>
+          </div>
+          <span>FoodPlug</span>
+        </div>
+        <div class="navmobile-menu" onclick="hamburgerHandler()">
+          <div class="menu-bar"></div>
+        </div>
+      </nav>
+
       <nav class="nav-desktop">
         <div class="header-logo"><i class="fa-regular fa-hand-lizard"></i></div>
         <div class="link-holder">
@@ -63,5 +76,6 @@
         </div>
       </section>
     </header>
+    <script src="main.js"></script>
   </body>
 </html>
