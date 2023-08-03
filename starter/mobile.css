@@ -5,3 +5,10 @@
     .nav-mobile{
         display: flex;
     }
+    .header-banner{
+        /* height: 580px; */
+        background-position: center;
+    }
+    .header-banner__content{
+        width: 100%;
+    }
