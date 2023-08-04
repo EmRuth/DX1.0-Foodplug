@@ -1,14 +1,27 @@
-@media (max-width:851px) {
-    .nav-desktop{
-        display: none;
-    }
-    .nav-mobile{
-        display: flex;
-    }
-    .header-banner{
-        /* height: 580px; */
-        background-position: center;
-    }
-    .header-banner__content{
-        width: 100%;
-    }
+@media (max-width: 851px) {
+  .nav-desktop {
+    display: none;
+  }
+  .nav-mobile {
+    display: flex;
+  }
+  .header-banner {
+    /* height: 580px; */
+    background-position: center;
+  }
+  .header-banner__content {
+    width: 100%;
+  }
+  .aboutfoods-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutfoods-image {
+    margin: 20px 0;
+    width: 90%;
+    height: 17.5rem;
+  }
+  .aboutfoods-text {
+    width: 100%;
+  }
+}
