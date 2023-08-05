@@ -337,7 +337,7 @@ body {
   color: var(--white-color);
   border-radius: 50%;
   font-size: 25px;
-  outline: 2px solid var(--white-color);
+  outline: 2px solid var(--main-color-dark);
   animation: ripple 3s infinite;
 }
 
