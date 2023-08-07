@@ -405,16 +405,36 @@ body {
 
 /* FAQ starts HERE */
 #FAQ {
-  border: 2px solid tomato;
   width: 90%;
   margin: 0 auto;
   padding: 30px 0;
 }
+#FAQ h2 {
+  text-align: center;
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 1.57rem;
+  margin-bottom: 15px;
+}
 .faq-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  justify-content: space-between;
 }
 .faq-card {
+  width: 48%;
+}
+.faq-card P {
+  text-align: justify;
 }
 .faq-card h3 {
+  color: var(--main-color-dark);
+  margin-bottom: 15px;
+}
+.faq-card h3 i {
+  color: var(--main-color);
+  margin-right: 12px;
 }
 
 /* eFAQ ENDS HERE */

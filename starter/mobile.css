@@ -27,6 +27,12 @@
   .aboutfoods-quote {
     padding: 50px 0;
   }
+  .faq-container {
+    flex-flow: column wrap;
+  }
+  .faq-card {
+    width: 100%;
+  }
 }
 @media (max-width: 1031px) {
   .explorefoods-cardsshowcase {
