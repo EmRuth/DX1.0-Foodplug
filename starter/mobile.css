@@ -24,4 +24,18 @@
   .aboutfoods-text {
     width: 100%;
   }
+  .aboutfoods-quote {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 1031px) {
+  .explorefoods-cardsshowcase {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .foodcard {
+    padding: 20px 0;
+    width: 16rem;
+  }
 }

@@ -292,7 +292,8 @@ body {
   margin-right: 8px;
 }
 .aboutfoods-quote {
-  height: 20rem;
+  /* height: 20rem; */
+  padding: 30px 0;
   background: var(--gray-gradient), url("./img/about3.jpg");
   background-size: cover;
   background-position: bottom right;
@@ -337,8 +338,83 @@ body {
   color: var(--white-color);
   border-radius: 50%;
   font-size: 25px;
-  outline: 2px solid var(--main-color-dark);
+  outline: 2px solid var(--white-color);
   animation: ripple 3s infinite;
 }
 
 /* ABOUT FOODS ENDS HERE */
+
+/* explore foods  starts HERE */
+
+.explorefoods-container {
+  border-bottom: 50px solid var(--main-color);
+  width: 90%;
+  margin: 0 auto;
+}
+.explorefoods-container h3 {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 25px;
+  font-weight: 700;
+}
+.explorefoods-container p {
+  text-align: center;
+  margin: 15px 0;
+  line-height: 1.5;
+}
+.explorefoods-cardsshowcase {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.foodcard {
+  width: 18.75rem;
+}
+.foodcard-imageholder {
+  width: 100%;
+  height: 12.5rem;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.foodcard-imageholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.foodcard-textholder {
+  padding: 20px 0;
+}
+.foodcard-textholder h4 {
+  font-size: 1.125rem;
+}
+.foodcard-textholder p {
+  margin: 8px 0;
+}
+.foodcard-textholder .price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--light-text-color);
+  padding-bottom: 10px;
+}
+.price span {
+  columns: var(--text-color);
+  text-decoration: line-through;
+}
+
+/* explore foods ENDS HERE */
+
+/* FAQ starts HERE */
+#FAQ {
+  border: 2px solid tomato;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.faq-container {
+}
+.faq-card {
+}
+.faq-card h3 {
+}
+
+/* eFAQ ENDS HERE */
