@@ -33,6 +33,11 @@
   .faq-card {
     width: 100%;
   }
+  #review {
+    padding: 0 10px;
+    text-align: center;
+    flex-flow: column wrap;
+  }
 }
 @media (max-width: 1031px) {
   .explorefoods-cardsshowcase {
