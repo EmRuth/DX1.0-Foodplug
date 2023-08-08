@@ -462,3 +462,104 @@ body {
   color: var(--white-color);
 }
 /* review ENDS HERE */
+
+/* FOOTER SECTION STARTS HERE */
+
+.cta-section {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cta-section h3 {
+  font-size: 2.188rem;
+  font-weight: 800;
+  color: var(--main-color-dark);
+}
+.cta-section p {
+  margin: 15px 0;
+}
+.cta-input {
+  border: 1.5px solid var(--main-color);
+  display: flex;
+}
+.cta-input input {
+  outline: none;
+  border: none;
+  padding: 8.5px 9px;
+  width: 12.5rem;
+  transition: width 0.3s ease;
+}
+.cta-input:hover input {
+  width: 16.25rem;
+}
+
+.cta-input button {
+  padding: 8px 9px;
+  border: none;
+  color: var(--white-color);
+  background: var(--main-color);
+}
+.cta-input input::placeholder {
+  color: var(--main-color);
+  font-size: 1.03125rem;
+}
+.footer {
+  padding: 30px 0;
+  background: var(--main-color);
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--white-color);
+  align-items: center;
+}
+.footer-iconholder {
+  display: flex;
+}
+.icons {
+  border: 1.5px solid var(--white-color);
+  height: 2.188rem;
+  width: 2.188rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 5px;
+  color: var(--white-color);
+  text-decoration: none;
+}
+.icons:hover {
+  background: var(--main-color-dark);
+}
+.footer button {
+  border: 1.8px solid var(--white-color);
+  background: transparent;
+  padding: 10px 15px;
+  color: var(--white-color);
+  cursor: pointer;
+}
+.footer button i {
+  margin-left: 3px;
+  transition: all 0.3s ease;
+}
+.footer button:hover {
+  background: var(--main-color-dark);
+}
+.footer button:hover i {
+  margin-left: 6px;
+}
+.footer button a {
+  text-decoration: none;
+}
+/* FOOTER SECTION ENDS HERE */
+
+/* larger screen fix starts HERE */
+main,
+header,
+footer {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+/* larger screen fix ENDS HERE */

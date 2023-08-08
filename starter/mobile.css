@@ -38,6 +38,14 @@
     text-align: center;
     flex-flow: column wrap;
   }
+  .footer {
+    flex-flow: column wrap;
+    text-align: center;
+    padding: 30px 15px;
+  }
+  .footer-iconholder {
+    margin: 10px 0;
+  }
 }
 @media (max-width: 1031px) {
   .explorefoods-cardsshowcase {
