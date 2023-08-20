@@ -1,18 +1,12 @@
 ![Project Overview](ProjectOverview.png)
 
-# DX1.0-Foodplug
-
-A simple Food business responsive landing page, A complete guide about how to build this project from scratch is covered in this [Youtube video](https://www.youtube.com/)
-
 ## Preview Application
 
-- https://dx1-foodplug.netlify.app/
+[- https://dx1-foodplug.netlify.app/](https://myfoodplugs.netlify.app/)
 
 
 
-## Youtube Tutorial Link
 
-- https://youtu.be/jz4SY1XyxlI
 
 # Steps to use Application
 
@@ -20,14 +14,14 @@ A simple Food business responsive landing page, A complete guide about how to bu
 - locate and open the folder named "final"
 - Open the index.html file
 
-Feel free to edit and use as you like, A credit to the original authors [Israel Akinwumi](https://twitter.com/akinwumidi) and [Xerax labs](https://twitter.com/xeraxlabs) will be appreciated.
+
 
 ## Help / Collaboration
 
 Need help making this project work, want to collaborate on future project or hire me? you can reach out via
 
-- [LinkedIn](https://www.linkedin.com/in/akinwumidi)
-- [Twitter](https://twitter.com/akinwumidi)
+- [LinkedIn](https://www.linkedin.com/in/damiloladipupo)
+- [Twitter](https://twitter.com/damiloladipupo)
 
 # Technologies Used
 
